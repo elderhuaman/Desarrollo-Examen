@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../../recursos/css/EstiloRegistro.css">
+</head>
+<body>
+   <div class="contenedor">
+   <img src="../../recursos/Imagenes/Registro.png" alt="">
+    <form name="formulario" method="post" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label for="nombre">Nombres: </label>
+            <input type="text" name="nombre" id="nombre" maxlength="100" placeholder="Ingrese su nombre"/>
+        </div>
+        <div>
+            <label for="apellido">Apellidos: </label>
+            <input type="text" name="apellido" id="apellido" maxlength="100" placeholder="Ingrese su apellido"/>
+        </div>
+        <div>
+            <label for="email">Correo: </label>
+            <input type="text" name="email" id="email" maxlength="200" placeholder="Escribe tu correo">
+        </div>
+        <div>
+            <label for="password">Contraseña: </label>
+            <input type="text" name="contraseña" id="contraseña" maxlength="200" placeholder="Ingresa tu contraseña">
+        </div>
+
+        <input type="submit" name="submit" value="REGISTRAR" class="btn-registrar">
+
+        <input type="submit" name="submit" value="LIMPIAR" class="btn-limpiar">
+
+
+        </form>
+    </div>
+</body>
+</html>
