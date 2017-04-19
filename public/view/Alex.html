@@ -30,6 +30,56 @@
 
         h1 { text-align: center}
 
+        .tit{
+           background: #2cea09
+
+
+        }
+        .btn{
+            background:#12cdd4;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .btn:hover{
+            background:#2cea09;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .btncal{
+            background:#e22820;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .btncal:hover{
+            background:#ea5959;
+            color: aliceblue;
+            font-size: 15px;
+            border-radius: 6px;
+            padding: 8px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+        .pre{
+            background: #60a310;
+                font-size: 100%;
+        }
+
+
 
     </style>
 </head>
@@ -40,52 +90,70 @@ el cuerpo de mi app de juego
 __________________________________________
 -->
 
-<body style="background:#0DC5EA">
+<body background="http://4.bp.blogspot.com/-TQcIOIz
+xCAA/UwYqMiPcAtI/AAAAAAAAf4U/xLMt4zi2nL4/s1600/Descargar+Increibles+fondos+abstractos+HD+(488).jpg">
 
 
-                     <h1 style="color:#EA0D1F" >BIENBENIDOS AL JUEGO</h1>
+                     <h1 class="tit">BIENBENIDOS AL JUEGO</h1>
 
 
 
-<div id="preguntas" >
+<div id="preguntas"  >
 
     <form name="resPreguntas" >
 
 
-        <table  style="background:#0DEA48" border="0" >
+        <table  style='float: center; padding: 12px; text-align: left;' >
 
 
 
             <tr>
-                <td>¿ QUIEN TRAICIONO A JESUS</td><tr>
-                <td ><input type="button" value="1:  JONAS" onclick=""></td><tr>
-               <td ><input type="button" value="2:  DANIEL" onclick=""></td><tr>
-               <td ><input type="button" value="3:  PEDRO" onclick=""></td><tr>
+
+
+                <td class="pre">¿ QUIEN TRAICIONO A JESUS</td><tr>
+
+                <td ><input type="button" value="1:  JONAS" onclick="" class="btn"></td><tr>
+               <td ><input type="button" value="2:  DANIEL" onclick="" class="btn"></td><tr>
+               <td ><input type="button" value="3:  PEDRO" onclick="" class="btn"></td><tr>
                <td><input id="calif" type="text" name="nombre" placeholder="ingrese el numero"</td><tr>
-               <td ><input type="button"  value="Calificar" onclick="calificacion()"></td>
+               <td ><input type="button"  value="Calificar" onclick="calificacion()" class="btncal"></td>
+
             </tr>
+
+
 
             <tr>
-                <td>¿QUIEN DERRTO A  GOLIAT?</td><tr>
-                <td ><input type="button" value="1  :ADAN" onclick=""></td><td></td><tr>
-               <td ><input type="button" value="2:  DAVID" onclick=""></td><tr>
-               <td ><input type="button" value="3:   MARIA" onclick=""></td><tr>
+
+
+                <td class="pre">¿QUIEN DERRTO A  GOLIAT?</td><tr>
+
+              <td ><input type="button" value="1  :ADAN" onclick="" class="btn"></td><td></td><tr>
+               <td ><input type="button" value="2:  DAVID" onclick="" class="btn"></td><tr>
+               <td ><input type="button" value="3:   MARIA" onclick= "" class="btn"></td><tr>
                <td><input id="cali" type="text" name="nam" placeholder="ingrese el numero"></td><tr>
-               <td><input type="button"  value="Calificar" onclick="calificacion2()"></td>
+               <td><input type="button"  value="Calificar" onclick="calificacion2()" class="btncal"></td>
             </tr>
 
-            <tr><tr>
-                <td>QUIEN HIZO LOS CIELOS Y LA TIERRA</td><tr>
-                <td ><input type="button" value="1:  JESUS" onclick=""></td><tr>
-               <td ><input type="button" value="2:   LUCIFER" onclick=""></td><tr>
-               <td ><input type="button" value="3:   SALOMON" onclick=""></td><tr>
+
+
+
+
+            <tr <hr> >
+
+                <td class="pre">QUIEN HIZO LOS CIELOS Y LA TIERRA</td><tr>
+
+                <tr>
+                <td ><input type="button" value="1:  JESUS" onclick="" class="btn"></td><tr>
+               <td ><input type="button" value="2:   LUCIFER" onclick="" class="btn"></td><tr>
+               <td ><input type="button" value="3:   SALOMON" onclick="" class="btn"></td><tr>
                <td><input id="cal" type="text" name="nameis" placeholder="ingrese el numero"></td><tr>
-               <td><input type="button"  value="Calificar" onclick="calificacion3()"></td>
+               <td><input type="button"  value="Calificar" onclick="calificacion3()" class="btncal"></td>
             </tr>
 
 
              <tr>
-               <td>GRACIAS POR SU PREFERENCIA</td>
+
+               <td class="tit">GRACIAS POR SU PREFERENCIA</td>
             </tr>
         </table>
     </form>
