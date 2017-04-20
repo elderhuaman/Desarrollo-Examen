@@ -1,4 +1,4 @@
-#btn-upeu{
+#btn{
     background-image: url(https://s-media-cache-ak0.pinimg.com/736x/3e/ac/ee/3eacee7ab231c2c7480169b4fbe07b40.jpg);
     color: white;
     font-size: 10px;
@@ -9,7 +9,7 @@
     padding-bottom: 5px;
     border-radius: 100px;
 }
-#btn-upeu:hover{
+#btn:hover{
     background-image: url(https://s-media-cache-ak0.pinimg.com/236x/d3/fa/f7/d3faf79479a975d8e26f8d4e2ac40dda.jpg);
     color: white;
     cursor:help;
