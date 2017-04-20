@@ -1,0 +1,54 @@
+body {
+    margin: 0 auto;
+    background-image: url(../Imagenes/barcelona-17-18-home-kit-design-1.jpg);
+    }
+
+background {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*width: 794px;
+    left: 2550.810px;*/
+}
+
+a {
+    color: aqua;
+}
+
+.inicio {
+    color: #1aed1a;
+}
+
+.mejores {
+    color: #1aed1a;
+}
+
+.futbolistas {
+    color: #1aed1a;
+}
+.equipos{
+    color: #1aed1a;
+}
+
+.contacto{
+    color: #1aed1a;
+}
+tr{
+    color: chartreuse;
+}
+h2{
+    color: #24c436;
+}
+h3{
+     color: #24c436;
+}
+p{
+    color: #fcfcfd;
+}
+.logo1{
+    color: green;
+}
+#futbol {
+    font-size: large;
+}
