@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Registro</title>
     <link rel="stylesheet" href="../../recursos/css/EstiloRegistro.css">
+    <script src="../../recursos/JS/ValidacionRegistro.js"></script>
 </head>
 <body>
    <div class="contenedor">
    <img src="../../recursos/Imagenes/Registro.png" alt="">
-    <form name="formulario" method="post" enctype="application/x-www-form-urlencoded">
+    <form name="formulario" method="post" enctype="application/x-www-form-urlencoded" id="formulario">
         <div>
 
             <input type="text" name="nombre" id="nombre" maxlength="100" placeholder="Ingrese su nombre"/>
@@ -19,20 +20,20 @@
         </div>
         <div>
 
-            <input type="text" name="email" id="email" maxlength="200" placeholder="Escribe tu correo">
+            <input type="text" name="email" id="email" maxlength="200" placeholder="Escribe tu correo"/>
         </div>
         <div>
 
-            <input type="password" name="contraseña" id="contraseña" maxlength="200" placeholder="Ingresa tu contraseña">
+            <input type="password" name="contraseña" id="contraseña" maxlength="200" placeholder="Ingresa tu contraseña"/>
         </div>
         <div>
 
-            <input type="password" name="contraseña2" id="contraseña" maxlength="200" placeholder="Repita su contraseña">
+            <input type="password" name="contraseña2" id="contraseña2" maxlength="200" placeholder="Repita su contraseña"/>
         </div>
 
-        <input type="submit" name="submit" value="REGISTRAR" class="btn-registrar">
+        <input type="submit" name="registrar" id="registrar" value="REGISTRAR" class="btn-registrar"/>
 
-        <input type="submit" name="submit" value="LIMPIAR" class="btn-limpiar">
+        <input type="submit" name="submit" value="LIMPIAR" class="btn-limpiar"/>
 
 
         </form>

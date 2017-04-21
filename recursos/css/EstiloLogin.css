@@ -11,6 +11,8 @@ body{
     text-align: center;
     background-color: rgba(52, 73, 94, 0.7);
     border-radius: 4px;
+    border-bottom: 4px #b51b1b solid;
+    border-top: 4px #19913e solid;
     margin: 0 auto;
     margin-top: 150px;
 }
