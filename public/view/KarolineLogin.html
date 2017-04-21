@@ -9,7 +9,18 @@
 
     <div class="contenedor">
        <img src="../../recursos/Imagenes/Usuario.png" alt="">
-        <form>
+       <script>
+           var x=0;
+           if(x==0 && registrar='REGISTRAR'){
+               var Html=("<form method='get' action='PaginaPrincipal.html'>");
+               document.write(Html);
+            }else{
+                var Html=("<action='KarolineLogin.html'>"); document.write(Html);
+                document.write("El usuario y/o contraseña no existen");
+            }
+
+        </script>
+
             <div class="form-input">
             <input type="text" name="usuario" placeholder="Usuario">
             </div>
@@ -17,9 +28,11 @@
                 <input type="password" name="contraseña" placeholder="Contraseña">
             </div>
             <input type="submit" name="submit" value="LOGIN" class="btn-login"><br>
-            <a href="../../public/view/KarolineRegistro.html">Registrate</a>
+            <a href="../../public/view/KarolineRegistro.html?x=0">Registrate</a>
         </form>
     </div>
+
+
 
 </body>
 </html>
